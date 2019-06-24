@@ -1,0 +1,1210 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+header{
+    background: #151515;
+}
+.main-icons{
+    display: inline-flex;
+    font-size: 14px;
+    color: gray;
+}
+.main-icons i{
+    padding: 16px 25px 0 0;
+    margin: 0;
+}
+.main-icons p{
+    font-size: 13px;
+    padding: 12px 10px;
+    margin: 0;
+}
+.main-icons p span{
+    color: #337ab7;
+    font-weight: 700;
+}
+.main-iconstwo p{
+    padding: 12px 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+.main-iconstwo p span{
+    color: #337ab7;
+    font-weight: 700;
+    padding-left: 50px;
+}
+.navbar-collapse ul{
+    padding-top: 16px;
+}
+.navbar-collapse ul li{
+    padding: 0 0 0 12px;
+    font-weight: 600;
+    color: #000;
+    z-index: 111;
+}
+.navbar-collapse ul li a{
+    font-size: 16px;
+    color: black !important;
+}
+.navbar-collapse ul .active a{
+    color: orange !important;
+}
+.navbar-collapse ul li a :visited{
+    color: orange !important;
+}
+.navbar-collapse ul li :hover{
+    color: orange !important;
+}
+.nav-img{
+    width: 200px;
+    margin: -65px -19px 0 0;
+}
+.nav-img img{
+    width: 160px;
+}
+#wrapper{
+    width: 1310px;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+.thing{
+    width: 100%;
+    margin: 0 auto;
+}
+.thing img{
+    width: 100%;
+    height: 600px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.slick-dots li button{
+    font-size: 20px !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 8px 5px 0 12px;
+}
+.navbar-nav{
+    position: relative;
+    transition: all 0.3s;
+}
+.navbar-nav:hover{
+    transition: 1s;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-top: 22px;
+    border: 1px solid #000;
+    width: 170%;
+
+}
+.dropdown-content p{
+    color: black;
+    width: 150%;
+    padding: 4px 2px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.container-for-padddingtwo{
+    height: 580px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.first-text{
+    text-align: center;
+}
+.first-text h2{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    color: #337ab7;
+}
+.first-text p{
+    font-size: 14pt;
+    color: #545454cf;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 22px;
+}
+.new-arrivals-products h6{
+    background: #1f87c8;
+    font-size: 20px;
+    width: 80%;
+    padding: 10px 22px;
+    color: #ffffff;
+    font-weight: 600;
+    transform: skew(-25deg );
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0 0 0;
+}
+.main-images{
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-images img{
+    width: 100%;
+    height: 250px;
+}
+.main-images p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #959595;
+}
+.main-images h5{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.main-images{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.container-fluid{
+    background-color: #f5f5f5;
+}
+.main-footer-icons-one{
+    background: white;
+    text-align: center;
+    margin: 40px 0;
+    padding: 48px 0 38px 1px;
+    width: 109%;
+}
+.main-footer-icons-one i{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    font-size: 40px;
+    color: #959595;
+}
+.main-footer-icons-one h3{
+    color: #333333;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 4px 0;
+}
+.main-footer-icons-one p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding: 0 15px 0 0;
+    color: #959595;
+}
+.main-footer-icons-two{
+    background: white;
+    text-align: center;
+    margin: 40px 0;
+    padding: 48px 0 38px 1px;
+    width: 109%;
+}
+.main-footer-icons-two i{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    font-size: 40px;
+    color: #959595;
+}
+.main-footer-icons-two h3{
+    color: #333333;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 0 49px 0 0;
+    letter-spacing: 2px;
+    margin: 4px 0;
+}
+.main-footer-icons-two p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding: 0 0 0 10px;
+    color: #959595;
+}
+.main-footer-icons-three{
+    background: white;
+    text-align: center;
+    margin: 40px 0;
+    padding: 48px 0 38px 1px;
+}
+.main-footer-icons-three i{
+    position: absolute;
+    top: 95px;
+    left: 70px;
+    font-size: 40px;
+    color: #959595;
+}
+.main-footer-icons-three h3{
+    color: #333333;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 4px 0;
+}
+.main-footer-icons-three p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding: 0 0 0 45px;
+    color: #959595;
+}
+.container-for-padddingthree{
+    width: 1170px;
+    margin: 0 auto;
+}
+.footer-heading {
+    padding-left: 30px;
+    width: 100%;
+    margin: 40px 0;
+}
+.footer-heading h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+.footer-heading hr{
+    width: 20%;
+    margin: 15px 0;
+}
+.footer-heading .one{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #8bbbe5;
+    margin: 25px 0 0 0;
+}
+.footer-heading .fourone i{
+    font-size: 16px;
+    color: #8bbbe5;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+.footer-heading .two{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #8bbbe5;
+    margin: 15px 0 0 0;
+}
+.footer-heading .three{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #8bbbe5;
+    padding-left: 25px;
+    margin: 8px 0 0 0;
+}
+.footer-heading .three :hover{
+    color: blue !important;
+}
+.footer-heading .fourtwo i{
+    font-size: 16px;
+    color: #8bbbe5;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+}
+.footer-heading .four{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #8bbbe5;
+    padding-left: 25px;
+    margin: 10px 0 0 0;
+}
+.footer-heading .fourthree i{
+    font-size: 16px;
+    color: #8bbbe5;
+    position: absolute;
+    top: 275px;
+    left: 50px;
+}
+.footer-heading .five{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #8bbbe5;
+    padding-left: 25px;
+    margin: 10px 0 0 0;
+}
+.footer-heading .call{
+    margin: -25px 0 0 0;
+}
+.footer-heading .home{
+    top: 370px !important;
+}
+.footer-heading .phone{
+    top: 458px !important;
+}
+.footer-heading .mo{
+    top: 490px !important;
+}
+.footer-heading ul{
+    display: block;
+    margin-top: 30px;
+    padding: 0 0;
+}
+.footer-heading ul li{
+    display: block;
+    font-size: 16px;
+    color: #8bbbe5;
+    padding-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-headingtwo{
+    padding-left: 30px;
+    width: 100%;
+    margin: 40px 0;
+}
+.footer-headingtwo h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+.footer-headingtwo hr{
+    width: 20%;
+    margin: 15px 0;
+}
+.footer-headingtwo .six{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #8bbbe5;
+    font-weight: 800;
+    margin: 25px 0 0 0;
+}
+.footer-headingtwo .seven{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #8bbbe5;
+    font-weight: 900;
+    margin: 15px 0 0 0;
+}
+.footer-headingtwo input{
+    width: 100%;
+    padding: 5px 0;
+    border: 1px solid #cccccc;
+}
+.footer-headingtwo .small{
+    width: 27%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    margin: 15px 0 0 -18px;
+}
+.footer-headingtwo label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8bbbe5;
+    display: initial;
+    margin-top: 5px;
+}
+.footer-headingthree{
+    padding-left: 30px;
+}
+#button{
+    background: #1f87c8;
+    border: 1px solid #1f87c8;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: -5px 0 50px 0;
+}
+.main-bg{
+    border-right: 2px solid #95959540;
+}
+.salt-mine-image  img{
+    width: 100%;
+    margin: -106px 0 0 0;
+}
+.salt-mines{
+    margin: 20px 0;
+    background-color: white;
+}
+.first-saltmines-product img{
+    width: 100%;
+}
+.salt-mines-text h2{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    color: #337ab7;
+    margin: 0 0 10px 0;
+}
+.salt-mines-text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+.main-parent-of-salt-mines{
+    margin-top: 30px;
+}
+.along-top{
+    margin: 7px 0 10px 0 !important;
+}
+.call-op{
+    margin-bottom: 50px !important;
+}
+.main-faqs-heading  h3{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 33px;
+}
+.main-accordions .accordion:before{
+    padding: 5px 15px 0 0;
+}
+.main-accordions i{
+    display: inline-flex;
+    font-size: 30px;
+}
+.main-accordions h4{
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-accordions p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+    word-spacing: 1px;
+    color: #333333b3;
+    font-weight: 100;
+    padding: 0 0 10px 40px;
+}
+.main-accordions .padding-left{
+    padding: 0 0 0 40px;
+}
+.main-benifits-of-salt-lamp-heading h3 {
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    margin: 0 0 0 16px;
+}
+.main-benifits-of-salt-lamp-heading p{
+    margin: 16px 0 0 16px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+}
+.main-portfolio-of-salt-lamps-benifits{
+    display: inline-flex;
+    width: 100%;
+}
+.main-portfolio-of-salt-lamps-benifits img{
+    height: 140px;
+    margin: 20px 0 0 25px;
+    width: 18%;
+}
+.main-portfolio-of-salt-lamps-benifits p{
+    margin: 70px 0 0 2px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    padding: 0 0;
+}
+.detail-of-salt-lamps-benifits p{
+    margin: -5px 0 0 16px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+}
+.main-question-of-salt-lamps-benifits h3{
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    margin: 20px 0 20px 16px;
+}
+.main-question-of-salt-lamps-benifits p{
+    margin: 0 0 0 7px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+}
+.main-question-of-salt-lamps-benifits img{
+    height: 230px;
+    margin: 20px 0 0 16px;
+    width: 18%;
+}
+.salt-cave-heading h3{
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    margin: 0 0 0 16px;
+}
+.salt-cave-heading p {
+    margin: 16px 0 10px 12px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    padding: 0 10px;
+}
+.salt-cave-heading ul{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 16px 0 10px 80px;
+    color: black;
+    padding: 0 10px;
+}
+.hash{
+    width: 100%;
+    background: #151515;
+}
+.center h5{
+    margin-bottom: 45px;
+}
+.center label{
+    margin-left: 50px;
+    color: #8bbbe5;
+    width: 280px;
+}
+.typeone{
+    margin-left: 40px;
+}
+.typetwo{
+    margin-left: 34px;
+}
+.typethree{
+    margin-left: 35px;
+}
+.typefour{
+    margin-left: 18px;
+}
+.typefive{
+    margin-left: 29px;
+}
+.typesix{
+    margin-left: 37px;
+}
+.typeseven{
+    margin-left: 48px;
+}
+.main-nav-img{
+    display: none;
+}
+.salt-certification-heading p{
+    margin: 16px 0 0 6px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+}
+.table-of-salt-certify{
+    display: flex;
+    margin-top: 20px;
+}
+.bold{
+    text-align: center;
+    font-size: 20px !important;
+    border: 1px solid #ededed;
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+    background-color: #192f58 !important;
+    color: #ffffc6;
+}
+.paragraph{
+    text-align: center;
+    border: 1px solid #ededed;
+}
+.paragraph p{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #59abe51a;
+    margin: 8px 0;
+}
+.salt-certification-headingtwo  p{
+    margin: 16px 0 0 6px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+}
+.salt-certification-headingtwo ul{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 16px 0 10px 80px;
+    color: black;
+    padding: 0 10px;
+}
+#none{
+    margin-bottom: 30px;
+}
+.animal-lick-salt-heading h6{
+    margin: 0;
+    padding: 0;
+    color: #272630;
+    text-transform: uppercase;
+    font-family: 'loveloblack', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.animal-lick-salt-heading a{
+    display: inline-flex;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px 0 0 0;
+    color: #959595;
+}
+.animal-lick-salt-heading a p{
+    width: 100%;
+    color: #959595;
+    font-weight: 600;
+}
+.animal-lick-salt-heading a p:last-child{
+    text-align: end;
+}
+.wall{
+    font-size: 11px;
+}
+.animal-lick-salt-icons{
+    display: inline-flex;
+}
+.animal-lick-salt-icons p{
+    margin-top: 5px;
+    color: #959595;
+}
+.animal-lick{
+    width: 100%;
+}
+.animal-lick img{
+    width: 100%;
+    margin-top: 45px;
+}
+.cooking-slab-none{
+    margin-top: -75px;
+}
+.cooking-slab{
+    margin-top: -30px;
+}
+.salt-mine-image img {
+    width: 100%;
+    margin: -60px 0 0 0;
+}
+/*///////// medium media query /////////*/
+@media (min-width: 992px) and (max-width: 1200px){
+    .none{
+        display: block;
+    }
+}
+/*///////// small media query /////////*/
+@media (min-width: 768px) and (max-width: 991px){
+    header{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .none{
+        display: block !important;
+    }
+    .main-icons{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .main-icons i {
+        padding: 10px 15px 0 0;
+        font-size: 33px;
+    }
+    .navbar-toggler-icon{
+        font-size: 50px;
+    }
+    .main-icons p{
+        padding: 0;
+        font-size: 33px;
+    }
+    .main-iconstwo{
+        display: none;
+    }
+    .main-iconstwo p{
+        padding: 5px 0 0 0;
+        font-size: 33px;
+    }
+    #wrapper{
+        width:100%;
+        position: inherit;
+    }
+    .thing img {
+        height: 660px;
+    }
+    .first-text{
+        margin-top: 210px;
+    }
+    .container-for-padddingtwo {
+        height: 500px;
+        width: 950px !important;
+    }
+    .first-text p {
+        font-size: 14px;
+    }
+    .new-arrivals-products h6 {
+        font-size: 44px;
+        transform: skew(-22deg );
+        width: 100%;
+        text-align: center;
+    }
+    .first-text h2 {
+        font-size: 84px;
+    }
+    .first-text p{
+        font-size: 50px;
+        letter-spacing: 0px;
+        padding: 21px 0;
+    }
+    .main-images {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .main-images img {
+        height: 500px;
+    }
+    .main-images p {
+        font-size: 34px;
+    }
+    .main-images h5{
+        font-size: 44px;
+    }
+    .main-footer-icons-one i {
+        top: 78px;
+        left: 93px;
+        font-size: 80px;
+    }
+    .main-footer-icons-two i{
+        top: 78px;
+        left: 93px;
+        font-size: 80px;
+    }
+    .main-footer-icons-three i{
+        top: 78px;
+        left: 93px;
+        font-size: 80px;
+    }
+    .main-footer-icons-one {
+        margin: 50px 0 30px 0;
+        padding: 20px 0 1px 0;
+        width: 100%;
+    }
+    .main-footer-icons-two {
+        margin: 30px 0;
+        padding: 20px 0 1px 0;
+        width: 100%;
+    }
+    .main-bg{
+        border-right: 0;
+    }
+    .footer-heading {
+        padding-left: 0;
+    }
+    .main-footer-icons-three {
+        margin: 30px 0 50px 0;
+        padding: 20px 0 1px 0;
+        width: 100%;
+    }
+    .main-footer-icons-one h3 {
+        font-size: 40px;
+    }
+    .main-footer-icons-two h3{
+        font-size: 40px;
+        padding: 0 26px 0 0;
+    }
+    .main-footer-icons-three h3{
+        font-size: 40px;
+    }
+    .main-footer-icons-one p {
+        font-size: 30px;
+    }
+    .main-footer-icons-two p{
+        font-size: 30px;
+        padding: 0 0 0 18px;
+    }
+    .main-footer-icons-three p{
+        font-size: 30px;
+        padding: 0 0 0 29px;
+    }
+    .center label{
+        margin-left: 0;
+        font-size: 34px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-heading h5 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .footer-heading ul li{
+        font-size: 34px;
+        text-align: center;
+    }
+    .center h5 {
+        margin-bottom: 35px;
+        font-size: 33px;
+    }
+    .footer-heading .one{
+        font-size: 34px;
+        margin: 35px 0 0 0;
+        text-align: center;
+    }
+    .footer-heading .two{
+        font-size: 34px;
+        text-align: center;
+    }
+    .footer-heading .fourone i {
+        top: 265px;
+        left: 10px;
+        font-size: 44px;
+    }
+    .footer-heading .three {
+        font-size: 34px;
+        padding-left: 15px;
+        text-align: center;
+    }
+    .footer-heading .fourtwo i {
+        top: 388px;
+        left: 214px;
+        font-size: 44px;
+    }
+    .footer-heading .four {
+        font-size: 34px;
+        padding-left: 15px;
+        text-align: center;
+    }
+    .footer-heading .fourthree i {
+        top: 442px;
+        left: 164px;
+        font-size: 44px;
+    }
+    .footer-heading .five {
+        font-size: 34px;
+        padding-left: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .display{
+        display: inline-flex;
+        margin: 20px 0;
+    }
+    .navbar-collapse ul {
+        display: flex;
+    }
+    .nav-img img{
+        display: none;
+    }
+    .main-nav-img{
+        display: block;
+    }
+    .main-nav-img img{
+        width: 150px;
+        margin-left: 560px;
+        margin-top: -110px;
+    }
+    .navbar-toggler{
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .navbar-collapse ul .active a{
+        margin-top: 0;
+    }
+    .navbar-collapse ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .delete{
+        display: none;
+    }
+    .navbar-collapse ul li a{
+        font-size: 35px;
+    }
+    .salt-mine-image img{
+        margin: 0 0 0 0;
+    }
+    .salt-mines-text h2{
+        font-size: 48px;
+        margin: 30px 0 !important;
+        text-align: center;
+    }
+    .salt-mines-text p{
+        font-size: 36px;
+        padding: 0 10px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .main-faqs-heading h3{
+        font-size: 44px;
+    }
+    .main-accordions i{
+        font-size: 50px;
+    }
+    .main-accordions h4{
+        font-size: 44px;
+
+    }
+    .main-accordions p{
+        font-size: 34px;
+    }
+    .main-benifits-of-salt-lamp-heading h3{
+        font-size: 44px;
+        text-align: center;
+    }
+    .main-benifits-of-salt-lamp-heading p{
+        font-size: 34px;
+        text-align: center;
+    }
+    .main-portfolio-of-salt-lamps-benifits{
+        display: block;
+    }
+    .main-portfolio-of-salt-lamps-benifits img{
+        width: 100%;
+        height: 500px;
+    }
+    .main-portfolio-of-salt-lamps-benifits p {
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+    .detail-of-salt-lamps-benifits p{
+        text-align: center;
+        font-size: 34px;
+    }
+    .main-question-of-salt-lamps-benifits h3{
+        font-size: 44px;
+        text-align: center;
+    }
+    .main-question-of-salt-lamps-benifits p{
+        font-size: 34px;
+        text-align: center;
+    }
+    .salt-cave-heading h3{
+        font-size: 44px;
+        text-align: center;
+    }
+    .salt-cave-heading p{
+        font-size: 34px;
+        text-align: center;
+    }
+    .salt-cave-heading ul{
+        font-size: 34px;
+        margin: 30px 0;
+    }
+    .main87{
+        line-height: 50px !important;
+    }
+    .dropdown-content{
+        background-color: #151515;
+        color: #ffffff;
+        margin-left: -70px;
+        margin-top: 0;
+    }
+    .dropdown-content p{
+        color: #ffffff;
+        width: 100%;
+        font-size: 30px;
+    }
+    .margin-000{
+        margin-left: -100px;
+        margin-top: 0;
+    }
+    .salt-certification-heading p{
+        font-size: 34px;
+        margin: 16px 0 20px 6px;
+        text-align: center;
+    }
+    .bold{
+        font-size: 24px !important;
+    }
+    .paragraph p{
+        font-size: 24px;
+        margin: 18px 0;
+    }
+    .salt-certification-headingtwo p{
+        font-size: 34px;
+        margin: 16px 0 20px 6px;
+        text-align: center;
+    }
+    .salt-certification-headingtwo ul{
+        font-size: 34px;
+        margin: 16px 0 20px 132px;
+    }
+    #none{
+        margin-bottom: 70px;
+    }
+    .table-of-salt-certify{
+        margin-bottom: 40px;
+    }
+    .margin-call{
+        margin: -100px 0 -140px 0;
+    }
+    .animal-lick-salt-heading h6{
+        font-size: 44px;
+        text-align: center;
+    }
+    .animal-lick-salt-heading a p{
+        font-size: 34px;
+    }
+    .animal-lick-salt-heading a p:last-child{
+        text-align: start;
+    }
+    .main-animal-salt-lick{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .animal-lick-salt-icons{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .animal-lick-salt-icons p{
+        font-size: 40px;
+    }
+    .animal-lick-salt-icons i{
+        font-size: 50px;
+    }
+    .cooking-slab-none{
+        margin-top: -120px;
+        margin-bottom: 0;
+    }
+    .cooking-slab{
+        margin-top: -120px;
+    }
+    }
+/*///////// extra small media query /////////*/
+@media (min-width: 440px) and (max-width: 767px) {
+    header{
+        display: none !important;
+    }
+    .navbar{
+        margin-left: 220px;
+    }
+    .main-icons i {
+        padding: 0 15px 0 0;
+    }
+    .main-icons p{
+        padding: 0;
+    }
+    .main-iconstwo p{
+        padding: 5px 0 0 0;
+
+    }
+    #wrapper {
+        width: 96%;
+        top: 270px;
+    }
+    .first-text {
+        text-align: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+    }
+    .thing img {
+        height: 660px;
+    }
+    .container-for-padddingtwo {
+        height: 500px;
+    }
+    .first-text p {
+        font-size: 14px;
+    }
+    .new-arrivals-products h6 {
+        font-size: 14px;
+        transform: skew(-22deg );
+        width: 100%;
+    }
+    .main-images {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .none{
+        display: none;
+    }
+    .main-images img {
+        height: 150px;
+    }
+    .container-fluid{
+        display: none;
+    }
+    .footer-heading {
+        padding-left: 0;
+        margin: 20px 0;
+    }
+    .footer-heading h5{
+        font-size: 12px;
+    }
+    .footer-heading ul {
+        margin-top: 0;
+    }
+    .footer-heading ul li{
+        font-size: 12px;
+    }
+    .center h5 {
+        margin-bottom: 15px;
+    }
+    .center label {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .thing img{
+        font-size: 12px;
+        margin: 15px 0 0 0;
+    }
+    .footer-heading .two{
+        font-size: 12px;
+    }
+    .footer-heading .fourone i {
+        font-size: 12px;
+        top: 145px;
+        left: 16px;
+    }
+    .footer-heading .three {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .footer-heading .fourtwo i {
+        font-size: 12px;
+        top: 227px;
+        left: 16px;
+    }
+    .footer-heading .four {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .footer-heading .fourthree i {
+        font-size: 12px;
+        top: 254px;
+        left: 16px;
+    }
+    .footer-heading .five {
+        font-size: 12px;
+        padding-left: 17px;
+    }
+    .container-for-padddingtwo{
+        max-width: 540px;
+    }
+
+}
